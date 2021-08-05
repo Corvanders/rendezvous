@@ -70,7 +70,7 @@ Le samedi de 9h à 19h</p>
 
         <label >Date</label>
 
-<input type="date" name="jour" id="jour" requied min="2021-08-04"></input>
+<input type="date" name="jour" id="jour" requied min="2021-08-04" ></input>
 
 <p>
 
@@ -78,7 +78,7 @@ Le samedi de 9h à 19h</p>
 <label for="matin">Choisissez un chréneau le matin</label>
 
 <input type="time" id="matin" name="matin"
-       min="09:00" max="12:00" required >
+       min="09:00" max="12:00" required step="3600">
 
 <script>
 

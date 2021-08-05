@@ -69,6 +69,8 @@ $resultats = $request->fetchAll(); // Stock les résultats ici tout es dans un t
 
                         <td><?= $client['jour'] ?></td>
 
+                        <td><?= $client['heure'] ?></td>
+
                     </tr>
             <?php
 
