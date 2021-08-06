@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    
-
+    background: rgb(119,119,201);
+    background: linear-gradient(90deg, rgba(119,119,201,1) 0%, rgba(200,200,221,1) 35%, rgba(231,231,231,1) 100%);
 }
 
 input:active{
