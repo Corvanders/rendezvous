@@ -7,15 +7,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
-</head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+    <link rel="stylesheet" media="screen" href="ordi.css" type="text/css" /></head>
+    <link rel="stylesheet" media="handheld" href="mobile.css" type="text/css" /></head>
+
 <body>
 
 
 <h1>Horaires d'ouverture</h1>
 
+<div class="row">
+  <div class="card">
 <p>Du mardi au vendredi, de 9h à 12h puis de 13h à 18h
 Le samedi de 9h à 19h</p>
-
+</div>
+</div>
 
 <div class="rgpd">
 <p>Bonjour nous allons stockés vos données.</p>
@@ -26,6 +32,8 @@ Le samedi de 9h à 19h</p>
 
 
 <a href="recherche.php">Page d'admin</a>
+<div class="row">
+<div class="formulaire">
 <form action="insertion.php"  method="post">
 <p>
 
@@ -108,6 +116,7 @@ picker.addEventListener('input', function(e){
 <input type="submit"  name="bouton" value="bouton">
 </p>
 
+</div>
 </form>
 
 
@@ -127,5 +136,6 @@ picker.addEventListener('input', function(e){
 
 
 </table>
+
 </body>
 </html>
